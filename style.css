@@ -1,0 +1,17 @@
+.lat_head {
+    background-color: teal;
+    color: white;
+}
+
+.right_head {
+    color: black;
+    font-size: small;
+    
+link_style:link {
+    color: black;
+}
+
+}
+link_style:hover {
+    background-color: lightgray;
+}
