@@ -11,3 +11,18 @@
 link_style:hover {
     background-color: lightgray;
 }
+
+.Header1 {
+    color: teal;
+}
+
+#body1 {
+    display: inline;
+}
+
+#body2 {
+    display: inline;
+}
+.subhead{
+    color: teal;
+}
