@@ -17,13 +17,21 @@
     color: teal;
 }
 
-#body1 {
+/*#body1 {
     display: inline;
 }
 
 #body2 {
     display: inline;
-}
+}*/
 .subhead{
     color: teal;
+}
+
+#MainHeader {
+    display: inline;
+}
+
+#SecondaryHeader {
+    display: inline;
 }
