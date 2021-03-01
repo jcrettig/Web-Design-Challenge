@@ -7,11 +7,7 @@
     color: black;
     font-size: small;
     
-link_style:link {
-    color: black;
-}
-
-}
+/* NEED HELP WITH THIS */
 link_style:hover {
     background-color: lightgray;
 }
