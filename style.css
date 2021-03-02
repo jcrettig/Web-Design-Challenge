@@ -15,15 +15,21 @@
 
 .Header1 {
     color: teal;
+    margin: 20px 0px 50px 100px;
 }
 
-/*#body1 {
-    display: inline;
+.chart1 {
+    margin: 0px 0px 0px 0px;
 }
 
 #body2 {
-    display: inline;
-}*/
+    
+}
+
+.para1{
+    margin: 0px 0px 0px 0px;
+}
+
 .subhead{
     color: teal;
 }

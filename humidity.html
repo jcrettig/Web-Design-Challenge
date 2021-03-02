@@ -6,9 +6,108 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
-    <title>Comparison</title>
+    <title>Humidity</title>
 </head>
 <body>
-    <p>Comparison</p>
+        
+    <!--------------------------------------------------------
+    Navigation Bar
+    ---------------------------------------------------------->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <!-- Brand -->
+            <a class="navbar-brand lat_head" href="">Latitude</a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="right_head link_style">
+            <!--Plots Dropdown-->
+                <ul class="navbar-nav ">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">    <!--Where does href go to?--> <!--Can't get dropdown to work-->
+                        Plots
+                        </a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="https://jcrettig.github.io/Web-Design-Challenge/max_temp">Latitude vs. Max Temperature</a>
+                            <a class="dropdown-item" href="https://jcrettig.github.io/Web-Design-Challenge/humidity">Latitude vs. Humidity</a>
+                            <a class="dropdown-item" href="https://jcrettig.github.io/Web-Design-Challenge/cloudiness">Latitude vs. Cloudiness</a>
+                            <a class="dropdown-item" href="https://jcrettig.github.io/Web-Design-Challenge/wind_speed">Latitude vs. Wind Speed</a>
+                        </div>
+                    </li>
+                    <!-- Comparison and Data Links -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://jcrettig.github.io/Web-Design-Challenge/comparison">Comparison</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://jcrettig.github.io/Web-Design-Challenge/data">Data</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!--------------------------------------------------------
+    Max Temperature Section
+    ---------------------------------------------------------->
+    <div id="MainHeader" class="container">
+        <!--Row 1 Header-->
+        <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-6">
+                <h2 class="Header1">Humidity</h1>
+            </div>
+            <div class="col-md-3"></div>
+        </div>
+         <!--Row 2 chart and paragraphs-->
+        <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-6" >
+                <img class="chart1" src="https://jcrettig.github.io/Web-Design-Challenge/Resources/assets/images/Fig2.png" 
+                alt="vs. Max Temperature" style="width: 500px;height: 500px;">
+            </div>
+
+            <div class="col-md-3"></div>
+        </div>
+
+         <!--Row 3 Final portion of the paragraph-->
+         <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-6">
+                <p>
+                    There does not tend to be a relationship between latitude and humidity.         
+                </p>
+            </div>
+            <div class="col-md-3"></div>
+        </div>
+    </div>
+    <!--------------------------------------------------------
+    Summary: Visualizations Section
+    ---------------------------------------------------------->
+    <div class="container">
+        <!--Row 1 Header-->
+        <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-6">
+                <h4 class="subhead">Visualizations</h4> 
+
+                <a href="https://jcrettig.github.io/Web-Design-Challenge/max_temp">
+                    <img src="https://jcrettig.github.io/Web-Design-Challenge/Resources/assets/images/Fig1.png" alt="Latitude vs. Max Temperature" style="width:100px;height:100px;">
+                </a>
+                <a href="https://jcrettig.github.io/Web-Design-Challenge/humidity">
+                    <img src="https://jcrettig.github.io/Web-Design-Challenge/Resources/assets/images/Fig2.png" alt="Latitude vs. Humidity" style="width:100px;height:100px;">
+                </a>
+                
+                <a href="https://jcrettig.github.io/Web-Design-Challenge/cloudiness">
+                    <img src="https://jcrettig.github.io/Web-Design-Challenge/Resources/assets/images/Fig3.png" alt="Latitude vs. Cloudiness" style="width:100px;height:100px;">
+                </a>
+                <a href="https://jcrettig.github.io/Web-Design-Challenge/wind_speed">
+                    <img src="https://jcrettig.github.io/Web-Design-Challenge/Resources/assets/images/Fig4.png" alt="Latitude vs. Windspeed" style="width:100px;height:100px;">
+                </a>
+            </div>
+            <div class="col-md-3"></div>
+        </div>
+    </div>
 </body>
 </html>
