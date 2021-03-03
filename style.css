@@ -8,13 +8,10 @@
     font-size: small;
 }
     
-/* NEED HELP WITH THIS 
-
-link_style:hover {
+/* Create hover on links*/
+.hover1:hover {
     background-color: lightgray;
-}
-
-*/
+} 
 
 .Header1 {
     color: teal;
@@ -45,35 +42,4 @@ link_style:hover {
     display: inline;
 }
 
-/* 
-NEED HELP WITH THIS 
-@Media - copied from class example
-*/
-@media (max-width: 700px) {
-    #mainHeaderText {
-        display: block;
-    }
-    
-    #navbarU1{
-        display: block;
-    }
 
-    #mainBody{
-        width: 300px;
-    }
-}    
-
-@media (max-width: 400px) {
-    #mainHeaderText {
-        display: block;
-    }
-        
-    #navbarU1{
-        display: block;
-    }
-    
-    #mainBody{
-        width: 200px;
-    }
-    
-}
