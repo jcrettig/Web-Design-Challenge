@@ -15,7 +15,7 @@
 
 .Header1 {
     color: teal;
-    margin: 20px 0px 50px 100px;
+    margin: 20px 0px 30px 30px;
 }
 
 .chart1 {
@@ -31,15 +31,16 @@
 }
 
 .subhead{
+    
     color: teal;
 }
 
-#MainHeader {
-    display: inline;
+.inline1 {
+    display: inline-block;
 }
 
-#SecondaryHeader {
-    display: inline;
+.inline2 {
+    display: inline-block;
 }
 
 
